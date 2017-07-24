@@ -61,7 +61,7 @@ public class Action {
 	 */
 	public void click_on_price_button() throws InterruptedException {
 		Thread.sleep(4000);
-		WebElement ele2 = getWebElement(20, locator.getL_Price_Button());
+		WebElement ele2 = getWebElement(10, locator.getL_Price_Button());
 		ele2.click();
 		getWebElement(10, locator.getL_P_Range_Button()).click();
 
